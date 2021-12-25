@@ -18,7 +18,7 @@ class AdminSeeder extends Seeder
         $users = [
             'name' => 'Admin vai',
             'role_id' => 1,
-            'email' => 'abc@gmail.com',
+            'email' => 'xyz@gmail.com',
             'image' => 'uploads/profile/avater.jpg',
             'password' => Hash::make('00000000'),
         ];
