@@ -19,6 +19,7 @@ class AdminSeeder extends Seeder
             'name' => 'Admin vai',
             'role_id' => 1,
             'email' => 'abc@gmail.com',
+            'image' => 'uploads/profile/avater.jpg',
             'password' => Hash::make('00000000'),
         ];
         User::insert($users);
