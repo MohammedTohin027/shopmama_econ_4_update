@@ -5,11 +5,11 @@ namespace App\Http\Controllers\Admin;
 use Carbon\Carbon;
 use App\Models\User;
 use Illuminate\Http\Request;
-use Intervention\Image\Image;
+// use Intervention\Image\Image;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-// use Intervention\Image\Facades\Image;
+use Intervention\Image\Facades\Image;
 
 class AdminController extends Controller
 {
