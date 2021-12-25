@@ -90,7 +90,7 @@ class AdminController extends Controller
         if (Auth::user()->image == 'uploads/profile/avater.jpg') {
             $image = $request->file('image');
             $image_ex = $image->getClientOriginalExtension();
-            $name_gen = dechex(uniqid()) . octdec(uniqid()) . '.' . $image_ex;
+            $name_gen = rand(000000,999999) . '.' . $image_ex;
             $save_url = 'uploads/profile/' . $name_gen;
 
             User::findOrFail(Auth::id())->update([
